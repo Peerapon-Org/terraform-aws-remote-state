@@ -35,3 +35,10 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+.gitignore
+.terraform
+.terraform.lock.hcl
+tfvars
+docker*
+provider.tf
