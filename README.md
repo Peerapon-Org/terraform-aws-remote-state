@@ -6,7 +6,8 @@ This module creates AWS S3 bucket and DynamoDB table for remote state management
 
 ```HCL
 module "remote-state" {
-  source                = "Peerapon966/remote-state/aws"
+  source                = "Peerapon-Org/remote-state/aws"
+  version               = "1.0.1"
 
   s3_bucket_name        = "terraform-remote-state-bucket"
   dynamodb_table_name   = "terraform-state-lock-table"
